@@ -1,4 +1,4 @@
-# Review of GitHub, and FitFlow
+# Review of GitHub, and FitFlow and other fun stuff.
 
 ## A-C-P
 
