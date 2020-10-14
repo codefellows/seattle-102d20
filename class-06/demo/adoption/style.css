@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+    /* background-color: rgb(249, 238, 2369);
+    background-color: #f9eeec;
+    background-color: red; */
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    border: solid black 1px;
+}
+#flower {
+    font-size: 50px;
+}
+
+li {
+    border: solid 1px black;
+    display: inline-block;
+    padding: 20px;
+    margin: 0px 20px 0px 20px;
+    background-color: cadetblue;
+}
+
+ul {
+    /* border: black solid 1px; */
+    text-align: center;
+}
+
+.odd{
+    color: green;
+}
+
+#hero {
+    text-align: center;
+}
+
+.sidebyside {
+    border: solid black 1px;
+    display: inline;
+    /* max-width: 45%; */
+}
+
+article {
+    border: solid black 1px;
+    display: inline-block;
+    width: 700px;
+    padding: 5px;
+    margin: 20px 10ps;
+}
