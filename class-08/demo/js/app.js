@@ -23,9 +23,7 @@ function welcome(hourNow, whoGroup) {
 
 var processOrder = function() {
   var order = prompt('What would you like to order?').toLowerCase();
-  var image = '';
-  var output = '';
-  var count;
+  var image;
 
   while (order !== 'hotel' && order !== 'house') {
     order = prompt('You can order a Hotel or a House. Which would you like?').toLowerCase();
@@ -33,11 +31,16 @@ var processOrder = function() {
 
   image = '<img src="images/' + order + '.png">';
 
-  count = prompt('How many ' + order + 's would you like?');
+  return buildOrder(image);
+};
+
+var buildOrder = function(img) {
+  var output = '';
+  var count = prompt('How many would you like?');
 
   for (var index = 0; index < count; index++) {
-    output = output + image; 
+    output += img; // equivalent to: output = output + image;
   }
 
   return output;
-};
+}
